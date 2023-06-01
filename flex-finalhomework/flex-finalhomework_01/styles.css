@@ -1,0 +1,89 @@
+/*--------還原語法開始-------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*--------還原語法結束-------*/
+
+/**{
+    border: 1px solid black;
+}*/
+
+h1, h2, h3, h4, h5, h6, p,a {
+    font-family:"微軟正黑體"
+}
+
+body{
+    background-color: #37523d;
+    display: flex;
+    justify-content: center;
+    min-height:100vh;
+}
+
+
+.card-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+.card{
+    margin:12px;
+    position: relative;
+    width:376px;
+    height:536px ;
+    background-color: #fff;
+}
+
+.card__img-container__title{
+    color:#37523d;
+    font-size:60px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.card__img-container{
+    position: relative;
+    height:268px;
+    width:100%;
+    background-color: #e7eeea;
+}
+
+.card__text{
+    margin-left:32px;
+    margin-right:32px;
+}
+
+.card__text>h3{
+    font-weight: bold;
+    font-size: 24px;
+    color:#37523d;
+    margin-top:38px;
+    margin-bottom: 38px;
+}
+
+.card__text>p{
+    font-size: 22px;
+}
